@@ -16,8 +16,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json",
-    "docs": "ng build --configuration production --output-path docs --base-href ng2-pdf-viewer && cp ./docs/index.html ./docs/404.html",
-    "postinstall": "ngcc --properties es2020 browser module main --first-only --create-ivy-entry-points"
+    "docs": "ng build --configuration production --output-path docs --base-href ng2-pdf-viewer && cp ./docs/index.html ./docs/404.html"
   },
   "private": false,
   "repository": {
